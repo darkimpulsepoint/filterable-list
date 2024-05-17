@@ -1,0 +1,19 @@
+{
+  "name": "filterable-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "fix-extensions": "fix-esm-import-path ./build",
+    "build": "npm run compile && npm run fix-extensions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fix-esm-import-path": "^1.6.0",
+    "typescript": "^5.4.5"
+  }
+}
